@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	int bts;
 	
-	cout<<"Masukkan Batas yaa	:";
+	cout<<"Masukkan Batas	:";
 	cin>>bts;
 	int arr[bts];
 	for(int x=0;x<=bts;x++){
@@ -14,7 +14,7 @@ int main(){
 	
 	for(int y=0;y<=bts;y++){
 		if(arr[y]%2==0){
-			cout<<"\nNilai Ke ["<<y<<"] adalah genap aja :"<<arr[y];
+			cout<<"\nNilai Ke ["<<y<<"] adalah genap :"<<arr[y];
 		}else{
 			cout<<"\nNilai Ke ["<<y<<"] adalah ganjil:"<<arr[y];
 		}
